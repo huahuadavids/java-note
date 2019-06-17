@@ -1,5 +1,6 @@
 # intellj
 - 是以项目作为工作空间，
+- 自带maven 
 - 直接创建java项目的方式不推荐
 - 设置了jdk同时也要设置编译版本的jdk版本
 ``` 
@@ -22,3 +23,13 @@
  // file encodings 
 
 ```
+
+ ### 新建maven项目
+ - file new maven
+ - 勾选 Create from archetype 
+ - 选择 maven-archetype-quickstart(普通项目)/maven-archetype-webapp(web项目) 
+ - 选择maven路径和配置文件地址
+ - 开启maven自动导包，build、execution、employment中的builds tools的maven 
+
+ ### 关联maven(不是创建项目方式)
+ - file -> settings -> maven 
